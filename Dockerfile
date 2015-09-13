@@ -14,5 +14,6 @@ VOLUME ["/app/./databases"]
 
 WORKDIR /app
 ADD ./orienteer.properties /app/orienteer.properties
+ADD ./start.sh /app/start.sh
 
-CMD ["java -Xmx512m -Xms512m -jar orienteer-standalone.jar --embedded --config=/app/orienteer.properties"]
+CMD ["/app/start.sh"]
