@@ -9,7 +9,7 @@ Pull image:
 
 Run with docker:
 
-	docker up -dti bulktrade/orienteer
+	docker run -dti bulktrade/orienteer
 	
 Run with docker-compose:
 
