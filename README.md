@@ -6,6 +6,14 @@ Orienteer System dockerized!
 Pull image:
 
 	docker pull bulktrade/orienteer
+
+Run with docker:
+
+	docker up -dti bulktrade/orienteer
+	
+Run with docker-compose:
+
+	docker-compose up -d
 	
 ### Usage with docker-compose
 
