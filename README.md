@@ -29,5 +29,7 @@ Run with docker-compose:
         #volumes:
         #    - ./orienteer.properties:/app/orienteer.properties # Set your own config file
     
+### Links
 [On DockerHub](https://registry.hub.docker.com/u/bulktrade/orienteer/)
+
 [On GitHub](https://https://github.com/deacix/docker-orienteer)
