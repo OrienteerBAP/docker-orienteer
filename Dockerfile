@@ -7,7 +7,6 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y git maven
 WORKDIR /
 RUN mkdir -p /app
 
-
 RUN git clone https://github.com/OrienteerDW/wicket-orientdb.git /wicket-orientdb
 WORKDIR /wicket-orientdb
 RUN mvn clean install
