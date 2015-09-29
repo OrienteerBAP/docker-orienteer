@@ -20,6 +20,7 @@ Run with docker-compose:
 	orienteer:
         image: bulktrade/orienteer
         restart: always
+        tty: true
         ports:
             - 8080
         environment:
