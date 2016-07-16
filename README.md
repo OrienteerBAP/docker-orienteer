@@ -1,3 +1,5 @@
+# This repository is deprecated. Use docker image defined in [Orienteer](https://github.com/OrienteerBAP/Orienteer)
+
 # docker-orienteer
 Orienteer System dockerized!
 
